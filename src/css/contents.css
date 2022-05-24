@@ -1,0 +1,51 @@
+.home-bg {
+    margin-top: 5rem;
+
+}
+.home-bg .home .content h3{
+    font-size: 8rem;
+}
+
+.home-bg .home .content p{
+    padding: 1rem 0;
+    font-size: 1.8rem;
+    color: rgb(67, 66, 66);
+    line-height: 2;
+}
+.home-bg .home{
+    min-height: 70rem;
+    display: flex;
+    align-items: center;
+
+}
+.home-bg .home .content {
+    width:50rem;
+    text-align: center;
+
+
+}
+.home-bg .home .flex{
+    display: flex;
+
+}
+.home-bg .home .flex img{
+    height: 40rem;
+    margin: auto;
+    margin-left: 100px;
+}
+.hr{
+    margin-left: 10rem;
+    height: 400px;
+    border-left: 2px solid black;
+}
+.btn{
+   
+    margin-left: 2rem;
+}
+.home-bg .home .flex .content .get{
+    margin-left: 470px;
+    width: 15rem;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    
+}
