@@ -2,8 +2,10 @@ import React, { Component } from 'react'
 import audi from '../images/audi.png';
 import '../css/contents.css'
 
+
+
 class Contents extends Component{
-    
+
     render(){
         
         return(

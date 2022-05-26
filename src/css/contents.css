@@ -49,3 +49,6 @@
     margin-top: 5rem;
     
 }
+.hover{
+    transform: scale(2);
+}

@@ -1,0 +1,65 @@
+.cars .head h3{
+    text-align: center;
+    font-size: 5rem;
+    
+}
+.cars .head p{
+    text-align: center;
+    font-size: large;
+    color: var(--black);
+}
+.cars .flex .first-car{
+    border: 1px solid var(--black);
+   
+    width: 45rem;
+    margin-top: 10rem;
+    
+    
+}
+.cars .flex .first-car img{
+    height: 30rem;
+    
+    border-radius: 2px;
+    
+}
+.cars .flex .first-car h4{
+    font-size: 2rem;
+    padding:5px;
+    
+    
+}
+.cars .flex .first-car .boxe{
+    display: flex;
+    
+}
+.cars .flex .first-car .boxe h6{
+    margin-left: 250px;
+    
+    font-size:13px;
+    color: var(--black);
+   margin-top: 1.8rem;
+}
+.cars .flex .first-car .boxe h5 a{
+    color: var(--black);
+    text-decoration: underline;
+    transition: all 0.5s;
+    font-size:medium;
+}
+.cars .flex .first-car p{
+    padding: 6px;
+    font-size: 1.4rem;
+}
+.cars .flex .first-car .boxe h5{
+    padding: 10px;
+    
+}
+.cars .flex .first-car .boxe h5 a:hover{
+    color: rgb(205, 50, 50);
+    
+}
+.flex{
+    
+    display: grid;
+  
+    
+}
