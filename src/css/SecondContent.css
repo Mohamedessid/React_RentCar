@@ -8,58 +8,69 @@
     font-size: large;
     color: var(--black);
 }
-.cars .flex .first-car{
+.cars .flex-two .first-car{
     border: 1px solid var(--black);
-   
     width: 45rem;
     margin-top: 10rem;
     
     
 }
-.cars .flex .first-car img{
+.cars .flex-two .first-car img{
     height: 30rem;
     
     border-radius: 2px;
     
 }
-.cars .flex .first-car h4{
+.cars .flex-two .first-car h4{
     font-size: 2rem;
     padding:5px;
     
     
 }
-.cars .flex .first-car .boxe{
+.cars .flex-two .first-car .boxe{
     display: flex;
     
 }
-.cars .flex .first-car .boxe h6{
+.cars .flex-two .first-car .boxe h6{
     margin-left: 250px;
     
     font-size:13px;
     color: var(--black);
    margin-top: 1.8rem;
 }
-.cars .flex .first-car .boxe h5 a{
+.cars .flex-two .first-car .boxe h5 a{
     color: var(--black);
     text-decoration: underline;
     transition: all 0.5s;
     font-size:medium;
 }
-.cars .flex .first-car p{
+.cars .flex-two .first-car p{
     padding: 6px;
     font-size: 1.4rem;
 }
-.cars .flex .first-car .boxe h5{
+.cars .flex-two .first-car .boxe h5{
     padding: 10px;
     
 }
-.cars .flex .first-car .boxe h5 a:hover{
+.cars .flex-two .first-car .boxe h5 a:hover{
     color: rgb(205, 50, 50);
     
 }
-.flex{
+.flex-two{
     
-    display: grid;
+    display: inline-grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
   
     
+}
+.cars .flex-two .mod img{
+    width: 380px;
+}
+.cars .flex-two .first-car{
+   
+
+}
+.cars .flex-two .first-car:after{
+
 }
